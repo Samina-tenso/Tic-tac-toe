@@ -7,7 +7,7 @@ function Squares(props, { array }) {
         <>
             {props.array.map((item, i) => {
                 return (
-                    <button key={i} className="square" onClick={props.setButton}></button>
+                    <button key={i} id={props.array[i]} className="square" onClick={props.setButton}></button>
                 )
             })}
 
