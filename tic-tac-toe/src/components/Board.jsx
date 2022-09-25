@@ -68,6 +68,7 @@ function Board() {
         //remove class from squares and setPlayer = X
         buttons.forEach(button => button.classList.remove("X", "O"))
         setClicked([])
+        setWinner("")
     }
 
     return (
